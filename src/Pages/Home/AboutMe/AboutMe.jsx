@@ -3,7 +3,7 @@ const AboutMe = () => {
     return (
         <div className="lg:mt-0 mt-[430px]">
             <div className="text-center">
-                <button className="btn my-10 btn-sm">About Me</button>
+                <button className="btn my-10 text-xl border-b-4 border-b-black">About Me</button>
             </div>
             <div className="card lg:card-side bg-base-100 shadow-xl">
                 <figure><img className="w-[450px] h-[400px]" src={about} alt="Album" /></figure>
