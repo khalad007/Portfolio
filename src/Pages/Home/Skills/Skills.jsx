@@ -21,6 +21,9 @@ const Skills = () => {
             <div className="text-center">
                 <button className="btn my-10 text-xl font-semibold border-b-4 border-b-black">Skills</button>
             </div>
+            <div className="text-center">
+                <h1 className="text-2xl font-semibold ">The skills, tools and technologies I am really good at : </h1>
+            </div>
             <div className="mt-10 grid lg:grid-cols-8 md:grid-cols-6 lg:ml-10 md:ml-8 ml-14 grid-cols-3 ">
                 <div className="flex flex-col justify-center mb-10">
                     <img className="h-16 w-16 mb-2" src={html} alt="" />

@@ -16,14 +16,26 @@ const Projects = () => {
                             Error Byte
                             <div className="badge badge-secondary">NEW</div>
                         </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p> A dynamic online learning platform designed to facilitate seamless interaction between students, teachers,
+                            and administrators.
+                        </p>
                         <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
+                            <div className="badge badge-outline">ReactJS</div>
+                            <div className="badge badge-outline">JS</div>
+                            <div className="badge badge-outline">NodeJS</div>
+                            <div className="badge badge-outline">ExpressJS</div>
+                            <div className="badge badge-outline">Tailwind</div>
+                            <div className="badge badge-outline">Firebase</div>
+                            <div className="badge badge-outline">MongoDB</div>
+                            <div className="badge badge-outline">React Rating</div>
+                            <div className="badge badge-outline">SwiperJS</div>
+                            <div className="badge badge-outline">JWT</div>
+                            <div className="badge badge-outline">Stripe</div>
+                            <div className="badge badge-outline">React Hook Form</div>
                         </div>
                         <div className="flex justify-between my-5">
-                            <button className="btn btn-neutral">Live Link</button>
-                            <button className="btn btn-neutral">GitHub</button>
+                            <a href="https://twelfthassignment.firebaseapp.com/"> <button className="btn btn-neutral">Live Link</button> </a>
+                            <a href="https://github.com/khalad007/Error-Byte-Client"> <button className="btn btn-neutral">GitHub</button> </a>
                         </div>
                     </div>
                 </div>
@@ -34,14 +46,24 @@ const Projects = () => {
                             EE Verse
                             <div className="badge badge-secondary">NEW</div>
                         </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p> EE Verse your go-to destination for all things electronics ! Our
+                            platform is designed to provide a seamless and enjoyable experience for tech enthusiasts, shoppers, and readers alike
+                        </p>
                         <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
+                            <div className="badge badge-outline">ReactJS</div>
+                            <div className="badge badge-outline">JS</div>
+                            <div className="badge badge-outline">NodeJS</div>
+                            <div className="badge badge-outline">ExpressJS</div>
+                            <div className="badge badge-outline">Tailwind</div>
+                            <div className="badge badge-outline">Firebase</div>
+                            <div className="badge badge-outline">MongoDB</div>
+                            <div className="badge badge-outline">DaisyUI</div>
+
                         </div>
                         <div className="flex justify-between my-5">
-                            <button className="btn btn-neutral">Live Link</button>
-                            <button className="btn btn-neutral">GitHub</button>
+                            <a href="https://tenth-assignment-75a23.firebaseapp.com/"> <button className="btn btn-neutral">Live Link</button> </a>
+                            <a href="https://github.com/khalad007/EE-Verse"> <button className="btn btn-neutral">GitHub</button> </a>
+
                         </div>
                     </div>
                 </div>
@@ -52,14 +74,22 @@ const Projects = () => {
                             Q Food
                             <div className="badge badge-secondary">NEW</div>
                         </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p> This innovative project aims to address the critical issues of food waste and scarcity by fostering a
+                            collaborative and community-driven approach.</p>
                         <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
+                            <div className="badge badge-outline">ReactJS</div>
+                            <div className="badge badge-outline">JS</div>
+                            <div className="badge badge-outline">NodeJS</div>
+                            <div className="badge badge-outline">ExpressJS</div>
+                            <div className="badge badge-outline">Tailwind</div>
+                            <div className="badge badge-outline">Firebase</div>
+                            <div className="badge badge-outline">MongoDB</div>
+                            <div className="badge badge-outline">JWT</div>
+                            <div className="badge badge-outline">React Hook Form</div>
                         </div>
                         <div className="flex justify-between my-5">
-                            <button className="btn btn-neutral">Live Link</button>
-                            <button className="btn btn-neutral">GitHub</button>
+                            <a href="https://eleven-assignment-993a2.firebaseapp.com/"> <button className="btn btn-neutral">Live Link</button> </a>
+                            <a href="https://github.com/khalad007/Q-Food"> <button className="btn btn-neutral">GitHub</button> </a>
                         </div>
                     </div>
                 </div>
