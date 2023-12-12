@@ -5,6 +5,7 @@ import Main from "../Layouts/Main";
 import Home from "../Pages/Home/Home/Home";
 import AboutMe from "../Pages/Home/AboutMe/AboutMe";
 import Projects from "../Pages/Home/Projects/Projects";
+import GetInTouch from "../Pages/Home/GetInTouch/GetInTouch";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
             {
                 path: 'project',
                 element: <Projects></Projects>
+            },
+            {
+                path: 'getintouch',
+                element: <GetInTouch></GetInTouch>
             }
         ]
     },

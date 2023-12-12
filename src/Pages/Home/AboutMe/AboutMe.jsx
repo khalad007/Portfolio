@@ -1,5 +1,17 @@
 import about from "../../../assets/about.jpg"
+import { IoCloudDownloadOutline } from "react-icons/io5";
+import resumePDF from "../../../assets/Khalads_Resume.pdf"
+
 const AboutMe = () => {
+    const handleResumeDownload = () => {
+        // Create a virtual anchor element
+        const link = document.createElement("a");
+        link.href = resumePDF; // Set the href attribute to the path of your PDF file
+        link.download = "Khalad_Resume.pdf"; // Set the desired name for the downloaded file
+        document.body.appendChild(link);
+        link.click(); // Simulate a click on the anchor element
+        document.body.removeChild(link); // Clean up the virtual anchor element
+    };
     return (
         <div className="lg:mt-0 mt-[400px]">
             <div className="text-center">
@@ -18,6 +30,8 @@ const AboutMe = () => {
                         🎯 And I might lack in skills I make up for with my determination to learn.
                         <br /> <br />
                         In addition to my coding ventures, I find joy in 🚴 cycling through scenic routes, solving 🧊 cubes with speed and precision, engaging in ♟️ chess battles, and immersing myself in the world of 🎮 online gaming. Collaboration is key, and you can often find me 💻 coding with friends on exciting projects on GitHub..</p>
+
+                    <a className="btn btn-sm btn-neutral w-32 ml-7" onClick={handleResumeDownload}>Resume <IoCloudDownloadOutline /></a>
 
                 </div>
             </div>

@@ -30,8 +30,9 @@ const Navbar = () => {
                         <Link to="/about"><li><a>About</a></li></Link>
                         
                         <Link to="/project"><li><a>Project</a></li></Link>
+                        <Link to="/getintouch"><li><a>Contact</a></li></Link>
 
-                            <li><a>Contact</a></li>
+                            
                             {/* <li><a>Testimonials</a></li> */}
                         </ul>
                     </div>
@@ -42,9 +43,10 @@ const Navbar = () => {
                     <Link to="/"><li><a>Home</a></li></Link>
                         <Link to="/about"><li><a>About</a></li></Link>
                         <Link to="/project"><li><a>Project</a></li></Link>
+                        <Link to="/getintouch"><li><a>Contact</a></li></Link>
 
                         
-                        <li><a>Contact</a></li>
+                        
                         {/* <li><a>Testimonials</a></li> */}
                     </ul>
                 </div>
