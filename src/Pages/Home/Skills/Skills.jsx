@@ -15,6 +15,9 @@ import stripe from "../../../assets/stripe.png"
 import jsonfile from "../../../assets/json-file.png"
 import tailwind from "../../../assets/tailwind.svg"
 import figma from "../../../assets/figma.svg"
+import { motion } from "framer-motion"
+
+
 const Skills = () => {
     return (
         <div>
@@ -25,22 +28,22 @@ const Skills = () => {
                 <h1 className="text-2xl font-semibold ">The skills, tools and technologies I am really good at : </h1>
             </div>
             <div className="mt-10 grid lg:grid-cols-8 md:grid-cols-6 lg:ml-10 md:ml-8 ml-14 grid-cols-3 ">
-                <div className="flex flex-col justify-center mb-10">
+                <motion.div whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.98 }} className="flex flex-col justify-center mb-10">
                     <img className="h-16 w-16 mb-2" src={html} alt="" />
                     <span className=" font-semibold text-lg ml-2 "> HTML</span>
-                </div>
-                <div className="flex flex-col justify-center mb-10">
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.98 }} className="flex flex-col justify-center mb-10">
                     <img className="h-16 w-16 mb-2" src={css} alt="" />
-                    <span className=" font-semibold text-lg ml-2 "> CSS</span>
-                </div>
-                <div className="flex flex-col justify-center mb-10">
+                    <span className=" font-semibold text-lg ml-3 "> CSS</span>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.98 }} className="flex flex-col justify-center mb-10">
                     <img className="h-16 w-16 mb-2" src={javascript} alt="" />
                     <span className=" font-semibold text-lg  "> JavsScript</span>
-                </div>
-                <div className="flex flex-col justify-center mb-10">
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.98 }} className="flex flex-col justify-center mb-10">
                     <img className="h-16 w-16 mb-2" src={react} alt="" />
                     <span className=" font-semibold text-lg ml-2 "> React</span>
-                </div>
+                </motion.div>
                 <div className="flex flex-col justify-center mb-10">
                     <img className="h-16 w-16 mb-2" src={nodejs} alt="" />
                     <span className=" font-semibold text-lg ml-[4px] "> NodeJs</span>
